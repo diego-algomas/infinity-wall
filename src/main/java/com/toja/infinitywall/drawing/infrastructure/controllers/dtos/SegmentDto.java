@@ -2,25 +2,16 @@ package com.toja.infinitywall.drawing.infrastructure.controllers.dtos;
 
 
 public class SegmentDto {
-    private PointDto start;
-    private PointDto end;
+    private PointDto p;
     private PointDto ct1;
     private PointDto ct2;
 
-    public PointDto getStart() {
-        return start;
+    public PointDto getP() {
+        return p;
     }
 
-    public void setStart(PointDto start) {
-        this.start = start;
-    }
-
-    public PointDto getEnd() {
-        return end;
-    }
-
-    public void setEnd(PointDto end) {
-        this.end = end;
+    public void setP(PointDto p) {
+        this.p = p;
     }
 
     public PointDto getCt1() {

@@ -12,6 +12,7 @@ public class LineDto implements Serializable {
     private String color;
     private boolean fill;
     private boolean closed;
+    private double strokeWidth;
 
     public List<SegmentDto> getSegments() {
         return segments;
@@ -39,5 +40,13 @@ public class LineDto implements Serializable {
 
     public void setClosed(boolean closed) {
         this.closed = closed;
+    }
+
+    public double getStrokeWidth() {
+        return strokeWidth;
+    }
+
+    public void setStrokeWidth(double strokeWidth) {
+        this.strokeWidth = strokeWidth;
     }
 }

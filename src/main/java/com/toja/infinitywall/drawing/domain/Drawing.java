@@ -31,4 +31,8 @@ public class Drawing {
         return lines;
     }
 
+
+    public void addLine(Line line){
+        this.lines.add(line);
+    }
 }

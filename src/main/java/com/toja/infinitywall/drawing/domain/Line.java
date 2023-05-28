@@ -8,6 +8,7 @@ public class Line {
     private String color;
     private boolean fill;
     private boolean closed;
+    private double strokeWidth;
 
     public List<Segment> getSegments() {
         return segments;
@@ -40,6 +41,14 @@ public class Line {
 
     public void setClosed(boolean closed) {
         this.closed = closed;
+    }
+
+    public double getStrokeWidth() {
+        return strokeWidth;
+    }
+
+    public void setStrokeWidth(double strokeWidth) {
+        this.strokeWidth = strokeWidth;
     }
 
     @Override

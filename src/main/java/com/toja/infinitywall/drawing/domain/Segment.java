@@ -1,25 +1,16 @@
 package com.toja.infinitywall.drawing.domain;
 
 public class Segment {
-    private Point start;
-    private Point end;
+    private Point p;
     private Point ct1;
     private Point ct2;
 
-    public Point getStart() {
-        return start;
+    public Point getP() {
+        return p;
     }
 
-    public void setStart(Point start) {
-        this.start = start;
-    }
-
-    public Point getEnd() {
-        return end;
-    }
-
-    public void setEnd(Point end) {
-        this.end = end;
+    public void setP(Point p) {
+        this.p = p;
     }
 
     public Point getCt1() {
@@ -36,15 +27,5 @@ public class Segment {
 
     public void setCt2(Point ct2) {
         this.ct2 = ct2;
-    }
-
-    @Override
-    public String toString() {
-        return "Segment{" +
-                "start=" + start +
-                ", end=" + end +
-                ", ct1=" + ct1 +
-                ", ct2=" + ct2 +
-                '}';
     }
 }
